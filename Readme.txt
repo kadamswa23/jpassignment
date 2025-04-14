@@ -1,5 +1,7 @@
 Spring boot application running on default port - 8080
-
+Inmemory db H2 DB is used 
+    username: ${DB_USERNAME} default user name
+    password: ${DB_PASSWORD} default password
 
 API exposed with
  http://localhost:8080/api/v1.0/users
