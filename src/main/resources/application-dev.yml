@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: User-Profile
+
+  datasource:
+    url: jdbc:h2:mem:assignmentdb
+    driver-class-name: org.h2.Driver
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    show-sql: true
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+

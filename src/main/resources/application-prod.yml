@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: User-Profile
+
+  batchFile:
+    location: ${BATCH-FILES_LOCATION}/c:/users/swati/java/user/UserProfileData.txt
